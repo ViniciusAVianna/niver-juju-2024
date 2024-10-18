@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niver June - Deixe sua mensagem</title>
+  <link rel="stylesheet" href="styles/style.css" type="text/css">
+  <link rel="stylesheet" href="styles/msg-style.css" type="text/css">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init({
+          publicKey: "8Z_wP8fDzIG8bK6wP",
+        });
+    })();
+  </script>
+  <script src="scripts/main.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="content">
+
+      <div class="sidebar">
+        <aside>
+          <ul class="menu-lateral">
+            <li class="sidebar-item"><a class="text sidebar-text" href="/">HOME</a></li>
+            <li class="sidebar-item"><a class="text sidebar-text" href="/local.html">Local</a></li>
+            <li class="sidebar-item"><a class="text sidebar-text" href="/infos.html">Informações importantes</a></li>
+            <li class="sidebar-item"><a class="text sidebar-text" href="/msg.html">Mande uma mensagem</a></li>
+            <li class="sidebar-item"><a class="text sidebar-text" href="/presentes.html">Presentes</a></li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="main">
+        <h1 class="title text">Mande sua mensagem</h1>
+        <p class="text-bold">
+          <b>
+            Sua mensagem será enviada por e-mail para os papais da June. Nenhuma mensagem será
+            exposta no site.
+          </b>
+        </p>
+        <form class="msg-form">
+          <input required type="text" id="title" class="input-title" placeholder="Escreva o título da mensagem">
+          <textarea required id="msg" class="input-msg" placeholder="Escreva sua mensagem"></textarea>
+          <input required type="text" id="name" class="input-name" placeholder="Escreva seu nome" autocomplete="off">
+          <button class="send-msg-bt" type="button" onclick="sendMail()">Enviar</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

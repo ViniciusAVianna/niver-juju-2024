@@ -1,0 +1,64 @@
+.foto-houhouse {
+  width: 35%;
+  margin-bottom: 2%;
+  margin-top: 1.8%;
+  align-self: center;
+}
+
+.houhouse-name {
+  font-size: 1.9vw;
+  padding-bottom: 5%;
+  color: black;
+  /* text-shadow: -0.01px 0 #FA8072, 0 0.01px #FA8072, 0.01px 0 #FA8072, 0 -0.01px #FA8072; */
+  text-align: left;
+}
+
+.local-infos p {
+  margin-bottom: 5vh;
+}
+
+.content-local {
+  font-size: 1.9vw;
+  color: black;
+  text-align: left;
+}
+
+.instagram-icon {
+  width: 1.9vw;
+  height: auto;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+#link-instagram {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (orientation: portrait) {
+  .foto-houhouse {
+    width: 60%;
+    margin-top: 10%;
+  }
+
+  .houhouse-name {
+    padding-bottom: 10%;
+  }
+
+  .local-infos p {
+    margin-bottom: 2vh;
+  }
+
+  .houhouse-name {
+    font-size: 3vw;
+  }
+ 
+  .content-local {
+    font-size: 2.5vw;
+  }
+
+  .endereco {
+    display: inline-block;
+    line-height: 1.2;
+  }
+}

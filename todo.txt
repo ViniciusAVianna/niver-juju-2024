@@ -1,0 +1,36 @@
+HOME:
+  Finalizada
+
+LOCAL:
+  OK - Foto Houhouse
+  OK - Endereço
+  0K - Link instagram
+  0K - Link Infos
+  Finalizada
+
+INFOS:
+  OK - Estacionamento
+  OK - Funcionamento:
+    OK - Clube :8h as 17h; festa a partir das 10h
+    OK - Nome (humanos e pets, 2 humanos por pet) na lista: entrada gratuíta
+    OK - Piscina no local (levar toalha, soprador pago no local)
+    OK - Outros cachorros
+  OK - Comida e bebida:
+    OK - No local (para humanos), não pode levar de fora
+  OK - Petiscos/comida pet:
+    OK - Não tem no local, precisa levar
+  OK - Agua:
+    OK - Potes e torneiras disponíveis no local
+  OK - Ajuste dos marcadores de lista
+  Finalizada
+
+MENSAGEM:
+  Finalizada
+
+PRESENTES:
+  OK - Lista de presentes e links
+  OK - Alinhamento presentes (mobile)
+  OK - pix
+  Finalizada
+
+OK - Menu lateral (e endereço na pág Local) (espaçamento entre linhas do mesmo texto (wd: 540px))

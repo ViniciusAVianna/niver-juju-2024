@@ -1,0 +1,21 @@
+.foto-juju {
+  width: 25%;
+  margin-bottom: 1.8%;
+  margin-top: 1.8%;
+  align-self: center;
+}
+
+.data-hora-local {
+  margin-top: 2%;
+  padding-bottom: 3%;
+  font-size: 2.3vw;
+  text-decoration: none;
+}
+
+@media only screen and (orientation: portrait) {
+  .foto-juju {
+    width: 45%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}

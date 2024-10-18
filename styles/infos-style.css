@@ -1,0 +1,51 @@
+.main .infos-lista {
+  width: 100%;
+  text-align: left;
+  padding-left: 3vw;
+  padding-top: 5vh;
+  padding-right: 1vw;
+}
+
+.main .infos-item {
+  list-style-type: none;
+  position: relative;
+  text-align: left;
+  font-size: 1.6vw;
+  padding-bottom: 3vh;
+}
+
+.infos-item::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 0;
+  transform: translateY(-50%);
+  width: 3vw;
+  height: 3vh;
+  background-image: url('../imgs/patinha.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 2vh;
+}
+
+@media only screen and (orientation: portrait) {
+  .main .infos-lista {
+    padding-left: 4vw;
+    padding-top: 3vh;
+  }
+
+  .infos-item::before {
+    margin-top: 1.5vh;
+    left: -3vw;
+    width: 2.5vw;
+    height: 2.5vh;
+  }
+
+  .main .infos-item {
+    font-size: 3.5vw;
+  }
+
+  b {
+    font-size: 2.5vw;
+  }
+}
